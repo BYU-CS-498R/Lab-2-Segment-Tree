@@ -119,7 +119,7 @@ def getSum(self, indexLeft, indexRight):
 
 This will be a basic Segment Tree. I would recommend storing your tree like a heap: Have the first element be the top of the tree, the next two be its children, the next two be the children of the first child, and so on. Then you can access the children of a node by accessing the nodes at the indices that correspond to the current index * 2 + 1 and the current index * 2 + 2.
 
-Please use the same file structure as the first lab.
+Please use the same file structure as the first lab. Place your code in a segmenttree folder.
 
 ## Problems
 
