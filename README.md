@@ -128,7 +128,9 @@ Because this is the military, the inputs will be a number in military time. They
 ## Rubric
 
 SegmentTree class: 50
+
 Problem 1: 15
+
 Problem 2: 35
 
 Total: 100
