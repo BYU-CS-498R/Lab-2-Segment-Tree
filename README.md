@@ -48,15 +48,24 @@ Dang. So with our first approach we could update values in O(1) time and calcula
 
 A segment tree of our array looks like this:
 
+http://i.imgur.com/ul1ukPz.jpg
 
 Each leaf nodes represents an element in our list, as well as an interval that consists of only the index that element is at.
 The first element represents the interval from 0 to 0, or [0...0], the second represents the interval [1...1] and so on. Then, we can build upward to an interval that represents the entire list. The node right above the first two represents the range [0...1] and consists of the sum of the elements from index 0 to 1. That is found easily by adding the value of the two nodes below it. We can do that for every pair of elements that are right next to each other, then repeat that process until we reach the top.
 
 So how do we update a value?
 
-Let's update the element at index 3 to 30 again. We traverse down the list to get to the leaf node that represents index 3, which is of value 5. We change that to 30, then go back up. The interval [2..3] should now hold a different value. We set it to the sum of the two nodes below it:
+Let's update the element at index 3 to 30 again. We traverse down the list to get to the leaf node that represents index 3, which is of value 5. We change that to 30, then go back up.
+
+http://i.imgur.com/quF03i3.jpg
+
+The interval [2..3] should now hold a different value. We set it to the sum of the two nodes below it:
+
+http://i.imgur.com/s1wzbOe.jpg
 
 And we just keep going till the top:
+
+http://i.imgur.com/fOldYI5.jpg
 
 Great. As you can see, updating a single value takes O(log n) time. What about finding the sum of an interval?
 
