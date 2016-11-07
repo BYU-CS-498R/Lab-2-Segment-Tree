@@ -111,7 +111,7 @@ class SegmentTree(object):
 
 It must have two functions: update and getSum.
 ```
-def update(self, value, index):
+def setValue(self, value, index):
 ```
 ```
 def getSum(self, indexLeft, indexRight):
