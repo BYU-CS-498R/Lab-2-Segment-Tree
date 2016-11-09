@@ -134,7 +134,7 @@ and
 ```
 def numberOfMeetingsTakingPlace(self, time):
 ```
-Because this is the military, the inputs will be a number in military time. They will also be numbers from 900 to 1700 as those are the times that meetings can be scheduled.
+Because this is the military, the inputs will be a number in military time. They will also be numbers from 900 to 1700 as those are the times that meetings can be scheduled. This should be a hint as to what size I will pass in to initialize the class.
 
 ## Rubric
 
