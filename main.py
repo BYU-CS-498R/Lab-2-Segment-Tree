@@ -2,7 +2,7 @@
 
 import unittest
 # Imports test cases
-from code.segmenttree.tests.module_tests import *
+from segmenttree.tests.module_tests import *
 
 
 def main():
