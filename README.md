@@ -123,7 +123,7 @@ Please use the same file structure as the first lab. Place your code in a segmen
 
 ## Problems
 
-1. I want to find the maximum number in a list in between two given indices. Create a class SegmentTreeMax that will make that possible. You should keep the update(value, index) function, but instead of a getSum(indexLeft, indexRight) function you should have a getMax(indexLeft, indexRight) function.
+1. I want to find the maximum number in a list in between two given indices. Create a class SegmentTreeMax that will make that possible. You should keep the setValue(value, index) function, but instead of a getSum(indexLeft, indexRight) function you should have a getMax(indexLeft, indexRight) function.
 
 2. You are in charge of scheduling meeting rooms at a military base. Your co-workers email you when they want to schedule a meeting with the times they will start and end the meeting. Your boss asks you often how many meeting rooms will be occupied at a given time. To make life easier, you're going to create a SegmentTreeScheduler class that will keep track of how many meetings are scheduled. Meeting hours are 900 to 1700 military time. 
 This class should have three functions: 
