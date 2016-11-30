@@ -109,7 +109,7 @@ class SegmentTree(object):
   __init__(self, size):
 ```
 
-It must have two functions: update and getSum.
+It must have two functions: setValue and getSum.
 ```
 def setValue(self, value, index):
 ```
